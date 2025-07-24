@@ -1,0 +1,33 @@
+{
+  "name": "ui5-react-bridge",
+  "description": "A project that combines React with OpenUI5",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "author": "Peter Muessig",
+  "loader": {
+    ".js": "jsx"
+  },
+  "scripts": {
+    "start": "vite start",
+    "build": "vite build",
+    "serve": "vite serve"
+  },
+  "browserslist": [
+      "defaults"
+  ],
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.7.0"
+  },
+  "devDependencies": {
+    "@ui5/fs": "^4.0.1",
+    "@ui5/logger": "^4.0.1",
+    "@ui5/project": "^4.0.4",
+    "@ui5/server": "^4.0.6",
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite": "^7.0.5"
+  }
+}
